@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^17.0.1
   '@commitlint/config-conventional': ^17.0.0
+  '@types/node': ^17.0.36
   '@typescript-eslint/eslint-plugin': ^5.26.0
   '@typescript-eslint/parser': ^5.26.0
   '@vitejs/plugin-vue': ^2.3.3
@@ -27,6 +28,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/17.0.1
   '@commitlint/config-conventional': registry.npmmirror.com/@commitlint/config-conventional/17.0.0
+  '@types/node': registry.npmmirror.com/@types/node/17.0.36
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.26.0_hzuh7e2up357pvq3mkokjvu2lq
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.26.0_xztl6dhthcahlo6akmb2bmjmle
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.3.3_vite@2.9.9+vue@3.2.36
@@ -188,10 +190,10 @@ packages:
       '@commitlint/execute-rule': registry.npmmirror.com/@commitlint/execute-rule/17.0.0
       '@commitlint/resolve-extends': registry.npmmirror.com/@commitlint/resolve-extends/17.0.0
       '@commitlint/types': registry.npmmirror.com/@commitlint/types/17.0.0
-      '@types/node': registry.npmmirror.com/@types/node/17.0.35
+      '@types/node': registry.npmmirror.com/@types/node/17.0.36
       chalk: registry.npmmirror.com/chalk/4.1.2
       cosmiconfig: registry.npmmirror.com/cosmiconfig/7.0.1
-      cosmiconfig-typescript-loader: registry.npmmirror.com/cosmiconfig-typescript-loader/2.0.0_smgpfffxrhk5i4ijhe3532b4hq
+      cosmiconfig-typescript-loader: registry.npmmirror.com/cosmiconfig-typescript-loader/2.0.1_w6gfxie3xfwntbz3mwbbvycbdq
       lodash: registry.npmmirror.com/lodash/4.17.21
       resolve-from: registry.npmmirror.com/resolve-from/5.0.0
       typescript: registry.npmmirror.com/typescript/4.7.2
@@ -414,10 +416,10 @@ packages:
     version: 1.2.2
     dev: true
 
-  registry.npmmirror.com/@types/node/17.0.35:
-    resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.35.tgz}
+  registry.npmmirror.com/@types/node/17.0.36:
+    resolution: {integrity: sha512-V3orv+ggDsWVHP99K3JlwtH20R7J4IhI1Kksgc+64q5VxgfRkQG8Ws3MFm/FZOKDYGy9feGFlZ70/HpCNe9QaA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.36.tgz}
     name: '@types/node'
-    version: 17.0.35
+    version: 17.0.36
     dev: true
 
   registry.npmmirror.com/@types/normalize-package-data/2.4.1:
@@ -1124,19 +1126,19 @@ packages:
       through2: registry.npmmirror.com/through2/4.0.2
     dev: true
 
-  registry.npmmirror.com/cosmiconfig-typescript-loader/2.0.0_smgpfffxrhk5i4ijhe3532b4hq:
-    resolution: {integrity: sha512-2NlGul/E3vTQEANqPziqkA01vfiuUU8vT0jZAuUIjEW8u3eCcnCQWLggapCjhbF76s7KQF0fM0kXSKmzaDaG1g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-2.0.0.tgz}
-    id: registry.npmmirror.com/cosmiconfig-typescript-loader/2.0.0
+  registry.npmmirror.com/cosmiconfig-typescript-loader/2.0.1_w6gfxie3xfwntbz3mwbbvycbdq:
+    resolution: {integrity: sha512-B9s6sX/omXq7I6gC6+YgLmrBFMJhPWew7ty/X5Tuwtd2zOSgWaUdXjkuVwbe3qqcdETo60+1nSVMekq//LIXVA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-2.0.1.tgz}
+    id: registry.npmmirror.com/cosmiconfig-typescript-loader/2.0.1
     name: cosmiconfig-typescript-loader
-    version: 2.0.0
+    version: 2.0.1
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
       typescript: '>=3'
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node/17.0.35
+      '@types/node': registry.npmmirror.com/@types/node/17.0.36
       cosmiconfig: registry.npmmirror.com/cosmiconfig/7.0.1
-      ts-node: registry.npmmirror.com/ts-node/10.8.0_smgpfffxrhk5i4ijhe3532b4hq
+      ts-node: registry.npmmirror.com/ts-node/10.8.0_w6gfxie3xfwntbz3mwbbvycbdq
       typescript: registry.npmmirror.com/typescript/4.7.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -3293,7 +3295,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  registry.npmmirror.com/ts-node/10.8.0_smgpfffxrhk5i4ijhe3532b4hq:
+  registry.npmmirror.com/ts-node/10.8.0_w6gfxie3xfwntbz3mwbbvycbdq:
     resolution: {integrity: sha512-/fNd5Qh+zTt8Vt1KbYZjRHCE9sI5i7nqfD/dzBBRDeVXZXS6kToW6R7tTU6Nd4XavFs0mAVCg29Q//ML7WsZYA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ts-node/-/ts-node-10.8.0.tgz}
     id: registry.npmmirror.com/ts-node/10.8.0
     name: ts-node
@@ -3315,7 +3317,7 @@ packages:
       '@tsconfig/node12': registry.npmmirror.com/@tsconfig/node12/1.0.9
       '@tsconfig/node14': registry.npmmirror.com/@tsconfig/node14/1.0.1
       '@tsconfig/node16': registry.npmmirror.com/@tsconfig/node16/1.0.2
-      '@types/node': registry.npmmirror.com/@types/node/17.0.35
+      '@types/node': registry.npmmirror.com/@types/node/17.0.36
       acorn: registry.npmmirror.com/acorn/8.7.1
       acorn-walk: registry.npmmirror.com/acorn-walk/8.2.0
       arg: registry.npmmirror.com/arg/4.1.3

@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite --host & pnpm style:watch",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint:check": "pnpm prettier --check .",
     "lint:format": "pnpm prettier --write .",
     "lint:fix": "eslint --ext .tsx,.ts,.js,.vue --fix ./src --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "style:watch": "pnpm typed-scss-modules src --watch --ignore \"**/index.scss\""
   },
   "dependencies": {
     "vue": "^3.2.25",
@@ -30,6 +31,7 @@
     "lint-staged": "^12.4.2",
     "prettier": "^2.6.2",
     "sass": "^1.52.1",
+    "typed-scss-modules": "^6.5.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vue-tsc": "^0.34.7"

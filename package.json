@@ -7,8 +7,8 @@
     "dev": "vite --host & pnpm style:watch",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint:check": "pnpm prettier --check .",
-    "lint:format": "pnpm prettier --write .",
+    "lint:check": "prettier --check .",
+    "lint:format": "prettier --write .",
     "lint:fix": "eslint ./src --ext .ts,.js,.vue --fix",
     "prepare": "husky install",
     "style:watch": "pnpm typed-scss-modules src --watch --ignore \"**/index.scss\""

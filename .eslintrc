@@ -14,8 +14,9 @@
     "no-eval": "error",
     "no-extend-native": "error",
     "no-var": "error",
-    "@typescript-eslint/no-explicit-any": "off",
-    "no-console": "warn"
+    "no-unused-vars": "error",
+    "no-console": "warn",
+    "@typescript-eslint/no-explicit-any": "off"
   },
   "parser": "vue-eslint-parser",
   "parserOptions": {

@@ -24,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
     "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/runtime-core": "^3.2.39",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -34,6 +35,7 @@
     "sass": "^1.54.5",
     "typed-scss-modules": "^6.5.0",
     "typescript": "^4.8.2",
+    "unplugin-auto-import": "^0.11.2",
     "vite": "^3.0.9",
     "vue-tsc": "^0.40.1"
   },

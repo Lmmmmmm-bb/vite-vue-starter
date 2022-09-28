@@ -14,10 +14,10 @@
 - **TypeScript** - A language for application-scale JavaScript
 - **ESLint** - Find and fix problems in your JavaScript code
 - **Prettier** - An opinionated code formatter
+- **unplugin-auto-import** - Auto import APIs on-demand
 
 ## Todo
 
-- **unplugin-auto-import** - Auto import APIs on-demand
 - **unplugin-vue-components** - On-demand components auto importing for Vue
 - **Vitest** - A Vite-native test framework
 - **Cypress** - Fast, easy and reliable testing for anything that runs in a browser
@@ -46,4 +46,4 @@ pnpm dev
 
 ## License
 
-This project is licensed under the MIT License.
+[**MIT**](./LICENSE) License © 2022-PRESENT [\_lmmmmmm](https://github.com/Lmmmmmm-bb)

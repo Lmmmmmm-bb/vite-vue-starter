@@ -1,4 +1,4 @@
-# Vite Vue Starter
+# vite-vue-starter
 
 [![GitHub license](https://img.shields.io/github/license/Lmmmmmm-bb/vite-vue-starter)](https://github.com/Lmmmmmm-bb/vite-vue-starter/blob/main/LICENSE)
 

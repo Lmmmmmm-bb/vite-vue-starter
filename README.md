@@ -9,12 +9,11 @@
 - **Vite** - Next Generation Frontend Tooling
 - **Vue** - Progressive JavaScript Framework
 - **Vue Router** - The official router for Vue.js
-- **Scss** - Makes CSS fun again
-- **CSS Module** - Write styles in CSS files but consume them as JavaScript objects
 - **TypeScript** - A language for application-scale JavaScript
 - **ESLint** - Find and fix problems in your JavaScript code
 - **Prettier** - An opinionated code formatter
 - **unplugin-auto-import** - Auto import APIs on-demand
+- **UnoCSS** - The instant on-demand Atomic CSS engine
 
 ## Todo
 

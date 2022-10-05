@@ -4,22 +4,23 @@
   "license": "MIT",
   "packageManager": "pnpm@7.12.2",
   "scripts": {
-    "dev": "vite --host & pnpm style:watch",
+    "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint:check": "prettier --check .",
     "lint:format": "prettier --write .",
     "lint:fix": "eslint ./src --ext .ts,.js,.vue --fix",
-    "prepare": "husky install",
-    "style:watch": "typed-scss-modules src --watch --ignore \"**/index.scss\""
+    "prepare": "husky install"
   },
   "dependencies": {
+    "@unocss/reset": "^0.45.26",
     "vue": "^3.2.40",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@iconify-json/carbon": "^1.1.8",
     "@types/node": "^18.7.23",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
@@ -32,9 +33,8 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "sass": "^1.55.0",
-    "typed-scss-modules": "^6.6.0",
     "typescript": "^4.8.4",
+    "unocss": "^0.45.26",
     "unplugin-auto-import": "^0.11.2",
     "vite": "^3.1.4",
     "vue-tsc": "^0.40.13"

@@ -19,7 +19,8 @@
     "no-undef": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "arrow-body-style": "error",
-    "prefer-template": "error"
+    "prefer-template": "error",
+    "no-tabs": "error"
   },
   "parser": "vue-eslint-parser",
   "parserOptions": {

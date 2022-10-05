@@ -1,7 +1,11 @@
 import { createApp } from 'vue';
+
 import App from './app';
 import { router } from './router';
-import './index.scss';
+
+import 'uno.css';
+import '@unocss/reset/tailwind.css';
+import './index.css';
 
 const app = createApp(App);
 

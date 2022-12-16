@@ -14,11 +14,11 @@
 - **Prettier** - An opinionated code formatter
 - **unplugin-auto-import** - Auto import APIs on-demand
 - **UnoCSS** - The instant on-demand Atomic CSS engine
+- **unplugin-vue-components** - On-demand components auto importing for Vue
+- **Vitest** - A Vite-native test framework
 
 ## Todo
 
-- **unplugin-vue-components** - On-demand components auto importing for Vue
-- **Vitest** - A Vite-native test framework
 - **Cypress** - Fast, easy and reliable testing for anything that runs in a browser
 - _something more..._
 

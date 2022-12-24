@@ -12,10 +12,10 @@
 - **TypeScript** - A language for application-scale JavaScript
 - **ESLint** - Find and fix problems in your JavaScript code
 - **Prettier** - An opinionated code formatter
-- **unplugin-auto-import** - Auto import APIs on-demand
 - **UnoCSS** - The instant on-demand Atomic CSS engine
-- **unplugin-vue-components** - On-demand components auto importing for Vue
 - **Vitest** - A Vite-native test framework
+- **unplugin-auto-import** - Auto import APIs on-demand
+- **unplugin-vue-components** - On-demand components auto importing for Vue
 
 ## Todo
 

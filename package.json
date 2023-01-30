@@ -1,6 +1,5 @@
 {
   "name": "vite-vue-starter",
-  "private": true,
   "license": "MIT",
   "packageManager": "pnpm@7.18.2",
   "scripts": {

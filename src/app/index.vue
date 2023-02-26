@@ -1,5 +1,5 @@
 <template>
-  <div h-full flex items-center justify-center text-2xl font-bold>
-    Hello - Vite + Vue + TS
+  <div h-full overflow-auto>
+    <Hello />
   </div>
 </template>

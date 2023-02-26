@@ -7,6 +7,8 @@ import vueComponents from 'unplugin-vue-components/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // github pages base url
+  // if you using Vercel to deploy, you can remove this line
   base: '/vite-vue-starter/',
   test: { environment: 'jsdom' },
   plugins: [
@@ -15,13 +17,13 @@ export default defineConfig({
     autoImport({
       imports: ['vue', 'vue-router', 'vitest', '@vueuse/core', '@vueuse/head'],
       dts: './src/typings/auto-import.d.ts',
-      vueTemplate: true
+      vueTemplate: true,
     }),
-    vueComponents({ dts: './src/typings/components.d.ts' })
+    vueComponents({ dts: './src/typings/components.d.ts' }),
   ],
   resolve: {
     alias: {
-      '~': resolve(__dirname, 'src')
-    }
-  }
+      '~': resolve(__dirname, 'src'),
+    },
+  },
 });

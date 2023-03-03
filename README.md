@@ -12,6 +12,7 @@
 - **Vite** - Next Generation Frontend Tooling
 - **Vue** - Progressive JavaScript Framework
 - **Vue Router** - The official router for Vue.js
+- **VueUse** - Collection of Vue Composition Utilities
 - **TypeScript** - A language for application-scale JavaScript
 - **UnoCSS** - The instant on-demand Atomic CSS engine
 - **Vitest** - A Vite-native test framework

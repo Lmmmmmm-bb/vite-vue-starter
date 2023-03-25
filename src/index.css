@@ -1,6 +1,11 @@
 html,
 body {
   height: 100%;
-  color: #333;
   overflow: auto;
+  transition: color, background-color 0.3s ease-in-out;
+}
+
+html.dark {
+  color: #fff;
+  background-color: #222;
 }

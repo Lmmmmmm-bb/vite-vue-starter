@@ -5,7 +5,7 @@
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/Lmmmmmm-bb/vite-vue-starter)
 [![GitHub license](https://img.shields.io/github/license/Lmmmmmm-bb/vite-vue-starter)](https://github.com/Lmmmmmm-bb/vite-vue-starter/blob/main/LICENSE)
 
-> It is strongly recommended to use [degit](https://github.com/Rich-Harris/degit) to clone this repository. It will delete **README.md** and **degit.json** file when clone.
+> It is strongly recommended to use [degit](https://github.com/Rich-Harris/degit) to clone this repository. It will delete **README.md**, **logo.svg** and **degit.json** when clone.
 
 ## Something inside
 
@@ -22,8 +22,8 @@
 - ~~**Prettier** - An opinionated code formatter~~ (use ESLint instead)
 
 ## Todo
-
-- **Cypress** - Fast, easy and reliable testing for anything that runs in a browser
+- **Pinia** - Intuitive, type safe and flexible Store
+- **Vue Query** - Powerful asynchronous state management
 - _something more..._
 
 ## Getting started
@@ -49,4 +49,4 @@ pnpm dev
 
 ## License
 
-[**MIT**](./LICENSE) License © 2023-PRESENT [_lmmmmmm](https://github.com/Lmmmmmm-bb)
+[**MIT**](./LICENSE) License © 2023 [_lmmmmmm](https://github.com/Lmmmmmm-bb)

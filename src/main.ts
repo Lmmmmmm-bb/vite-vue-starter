@@ -4,6 +4,7 @@ import App from './app';
 import { router } from './router';
 
 import 'uno.css';
+import 'virtual:unocss-devtools';
 import '@unocss/reset/tailwind.css';
 import './index.css';
 

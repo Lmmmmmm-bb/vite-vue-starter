@@ -23,7 +23,7 @@
 
 ## Todo
 
-- **Devtools** - Vite plugin designed to enhance the Vue developer experience.
+- **Devtools** - Vite plugin designed to enhance the Vue developer experience
 - **Pinia** - Intuitive, type safe and flexible Store
 - **Vue Query** - Powerful asynchronous state management
 - _something more..._

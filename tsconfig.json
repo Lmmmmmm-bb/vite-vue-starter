@@ -7,7 +7,7 @@
     "module": "esnext",
     "moduleResolution": "Bundler",
     "lib": ["esnext", "dom"],
-    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
     "noEmit": true,
     "sourceMap": true,
     "resolveJsonModule": true,
@@ -20,6 +20,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "allowImportingTsExtensions": true,
     "paths": {
       "~/*": ["src/*"]
     }

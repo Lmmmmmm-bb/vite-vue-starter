@@ -1,21 +1,26 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "useDefineForClassFields": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "strict": true,
+    "baseUrl": ".",
     "jsx": "preserve",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "Bundler",
+    "lib": ["esnext", "dom"],
+    "isolatedModules": true,
+    "noEmit": true,
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "noUnusedLocals": true,
-    "baseUrl": ".",
+    "useDefineForClassFields": true,
     "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowImportingTsExtensions": true,
     "paths": {
       "~/*": ["src/*"]
     }

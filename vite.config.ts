@@ -1,5 +1,5 @@
-import unocss from 'unocss/vite';
 import { resolve } from 'node:path';
+import unocss from 'unocss/vite';
 import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vitest/config';
 import autoImport from 'unplugin-auto-import/vite';

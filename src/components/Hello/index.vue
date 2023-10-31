@@ -13,8 +13,8 @@ const toggleDark = useToggle(isDark);
       Hello, Vite + Vue + TS
     </h1>
     <button
-      text-lg cursor-pointer
       i-carbon-sun dark:i-carbon-moon
+      cursor-pointer text-lg
       @click="toggleDark()"
     />
   </div>

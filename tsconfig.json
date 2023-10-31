@@ -1,35 +1,35 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "baseUrl": ".",
-    "jsx": "preserve",
     "target": "esnext",
+    "jsx": "preserve",
+    "lib": ["esnext", "dom"],
+    "useDefineForClassFields": true,
+    "baseUrl": ".",
     "module": "esnext",
     "moduleResolution": "Bundler",
-    "lib": ["esnext", "dom"],
-    "isolatedModules": true,
-    "noEmit": true,
-    "sourceMap": true,
+    "paths": {
+      "~/*": ["src/*"]
+    },
     "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
     "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "allowImportingTsExtensions": true,
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "noEmit": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
   },
+  "references": [{ "path": "./tsconfig.node.json" }],
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.vue",
     "test/**/*.test.ts"
-  ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  ]
 }

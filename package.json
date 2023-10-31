@@ -1,5 +1,6 @@
 {
   "name": "vite-vue-starter",
+  "type": "module",
   "packageManager": "pnpm@8.6.0",
   "license": "MIT",
   "scripts": {
@@ -19,9 +20,8 @@
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.24",
     "@iconify-json/carbon": "^1.1.17",
-    "@lmmmmmm/eslint-config": "^0.3.0",
-    "@lmmmmmm/eslint-config-vue": "^0.3.0",
     "@types/node": "^18.16.16",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitest/ui": "^0.31.4",

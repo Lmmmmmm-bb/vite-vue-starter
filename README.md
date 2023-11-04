@@ -23,6 +23,7 @@
 
 ## Todo
 
+- **unplugin-vue-router** - Next-gen file based typed routing for vue router
 - **Devtools** - Vite plugin designed to enhance the Vue developer experience
 - **Pinia** - Intuitive, type safe and flexible Store
 - **Vue Query** - Powerful asynchronous state management

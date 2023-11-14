@@ -20,12 +20,12 @@
 - **unplugin-vue-components** - On-demand components auto importing for Vue
 - **ESLint** - Find and fix problems in your JavaScript code
 - ~~**Prettier** - An opinionated code formatter~~ (use ESLint instead)
+- **Pinia** - Intuitive, type safe and flexible Store
 
 ## Todo
 
 - **unplugin-vue-router** - Next-gen file based typed routing for vue router
 - **Devtools** - Vite plugin designed to enhance the Vue developer experience
-- **Pinia** - Intuitive, type safe and flexible Store
 - **Vue Query** - Powerful asynchronous state management
 - _something more..._
 

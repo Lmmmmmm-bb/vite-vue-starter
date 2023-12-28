@@ -9,3 +9,9 @@ html.dark {
   color: #fff;
   background-color: #222;
 }
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}

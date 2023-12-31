@@ -1,8 +1,3 @@
-<script setup lang="ts">
-const isDark = useDark();
-const toggleDark = useToggle(isDark);
-</script>
-
 <template>
   <div
     h-full
@@ -12,10 +7,6 @@ const toggleDark = useToggle(isDark);
     <h1>
       Hello, Vite + Vue + TS
     </h1>
-    <button
-      i-carbon-sun dark:i-carbon-moon
-      cursor-pointer text-lg
-      @click="toggleDark()"
-    />
+    <ThemeToggle />
   </div>
 </template>

@@ -7,7 +7,7 @@ import { router } from './router/index.ts';
 import 'uno.css';
 import 'virtual:unocss-devtools';
 import '@unocss/reset/tailwind.css';
-import './index.css';
+import './styles/index.css';
 
 const app = createApp(App);
 

@@ -1,10 +1,10 @@
 import { resolve } from 'node:path';
-import unocss from 'unocss/vite';
 import vue from '@vitejs/plugin-vue';
-import { defineConfig } from 'vitest/config';
+import unocss from 'unocss/vite';
 import autoImport from 'unplugin-auto-import/vite';
 import vueComponents from 'unplugin-vue-components/vite';
 import devtools from 'vite-plugin-vue-devtools';
+import { defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({

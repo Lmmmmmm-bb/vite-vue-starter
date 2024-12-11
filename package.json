@@ -38,7 +38,7 @@
     "vite": "^6.0.3",
     "vite-plugin-vue-devtools": "^7.6.7",
     "vitest": "^2.1.8",
-    "vue-tsc": "^2.1.10"
+    "vue-tsc": "https://pkg.pr.new/vuejs/language-tools/vue-tsc@3fb59af"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

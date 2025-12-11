@@ -393,7 +393,6 @@ declare module 'vue' {
     readonly isShallow: UnwrapRef<typeof import('vue')['isShallow']>
     readonly it: UnwrapRef<typeof import('vitest')['it']>
     readonly makeDestructurable: UnwrapRef<typeof import('@vueuse/core')['makeDestructurable']>
-    readonly manualResetRef: UnwrapRef<typeof import('@vueuse/core')['manualResetRef']>
     readonly mapActions: UnwrapRef<typeof import('pinia')['mapActions']>
     readonly mapGetters: UnwrapRef<typeof import('pinia')['mapGetters']>
     readonly mapState: UnwrapRef<typeof import('pinia')['mapState']>
